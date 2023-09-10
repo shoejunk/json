@@ -1,10 +1,9 @@
-#include <template/template.h>
+#include <json/json.h>
 
-using namespace NStk;
+using namespace NStk::NJson;
 
 int main()
 {
-	NTemplate::CTemplate oTemplate;
-	oTemplate.Template();
+	CJson oJson("level.json");
 	return 0;
 }
