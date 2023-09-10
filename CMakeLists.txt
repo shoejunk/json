@@ -28,8 +28,8 @@ CPMAddPackage("gh:TheLartians/PackageProject.cmake@1.8.0")
 # Adding nlohmann_json as a dependency
 CPMAddPackage(
     NAME nlohmann_json
-    VERSION 3.9.1
-    URL "https://github.com/nlohmann/json/releases/download/v3.9.1/include.zip"
+    VERSION 3.11.2
+    URL "https://github.com/nlohmann/json/releases/download/v3.11.2/include.zip"
     DOWNLOAD_ONLY YES
 )
 
