@@ -62,7 +62,7 @@ target_compile_options(${PROJECT_NAME} PUBLIC "$<$<COMPILE_LANG_AND_ID:CXX,MSVC>
 
 # Link dependencies
 #target_link_libraries(${PROJECT_NAME} PUBLIC nlohmann_json::nlohmann_json Log::Log)
-target_link_libraries(${PROJECT_NAME} PRIVATE nlohmann_json Log)
+target_link_libraries(${PROJECT_NAME} PUBLIC nlohmann_json Log)
 
 target_include_directories(
   ${PROJECT_NAME} PUBLIC $<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/include>
