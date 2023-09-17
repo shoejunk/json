@@ -1,9 +1,9 @@
-#include <json/json.h>
+import Json;
 
 using namespace NStk::NJson;
 
 int main()
 {
-	CJson oJson("level.json");
+	CJson oJson("data/level.json");
 	return 0;
 }
